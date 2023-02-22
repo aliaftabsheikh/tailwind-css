@@ -1,6 +1,10 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
+import Hero from './Hero/page'
+import Rockets from './Rocket/page'
+import Testimonial from './Testimonials/page'
+import Contact from './ContactUs/page'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,8 +26,11 @@ export default function Home() {
 
     //! Lesson 2
 
-    <>
-   
-    </>
+    <main className='max-w-6xl mx-auto'>
+   <Hero/>
+   <Rockets/>
+   <Testimonial/>
+   <Contact/>
+    </main>
       )
 }

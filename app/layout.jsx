@@ -12,7 +12,6 @@ export default function RootLayout({ children }) {
       <head />
       <body className="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
         <Header/>
-        <Hero/>
         {children}
       </body>
     </html>
