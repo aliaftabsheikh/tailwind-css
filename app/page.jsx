@@ -5,6 +5,7 @@ import Hero from './Hero/page'
 import Rockets from './Rocket/page'
 import Testimonial from './Testimonials/page'
 import Contact from './ContactUs/page'
+import Footer from './Footer/page'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +26,7 @@ export default function Home() {
 
 
     //! Lesson 2
+<>
 
     <main className='max-w-6xl mx-auto'>
    <Hero/>
@@ -32,5 +34,7 @@ export default function Home() {
    <Testimonial/>
    <Contact/>
     </main>
+   <Footer/>
+</>
       )
 }
