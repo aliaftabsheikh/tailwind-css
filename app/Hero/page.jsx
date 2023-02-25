@@ -18,7 +18,7 @@ function Hero() {
           <p className="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">We're building rocket for the next century today. From the moon to Mars, Jupiter and beyond </p>
           <p className="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">Think Acme Rockets</p>
         </article>
-        <Image className="w-1/2" src={images.rocketDab} alt="RocketDab" />
+        <Image className="w-1/2 animate-pulse" src={images.rocketDab} alt="RocketDab" />
       </section>
 
       <hr className="mx-auto bg-black dark:bg-white w-1/2" />
